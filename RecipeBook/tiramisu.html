@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<header class="w3-display-container w3-content w3-wide" style="max-width:1000px;min-width:500px" id="home">
+  <img class="w3-image" src="tiramisu.jpg" alt="Tiramisu" width="1500" height="700">
+  <div class="w3-display-topleft w3-padding-large w3-opacity">
+    <h1 class="w3-xlarge">Tiramisu</h1>
+  </div>
+</header>
+
+<div class="w3-content" style="max-width:1100px">
+
+  <div class="w3-col m12 w3-padding-large">
+    <p class="w3-large">Indulge in the classic Italian dessert, Tiramisu, with its layers of coffee-soaked ladyfingers and creamy mascarpone filling, topped with a dusting of cocoa powder.</p>
+  </div>
+
+  <br>
+
+  <div class="w3-row w3-padding-60" id="ingredients">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Ingredients</h1><br>
+      <ul>
+        <li><h5>6 egg yolks</h5></li>
+        <li><h5>3/4 cup granulated sugar</h5></li>
+        <li><h5>1 cup mascarpone cheese</h5></li>
+        <li><h5>1 1/2 cups heavy cream</h5></li>
+        <li><h5>2 cups strong brewed coffee, cooled</h5></li>
+        <li><h5>1/4 cup coffee liqueur (optional)</h5></li>
+        <li><h5>24-30 ladyfinger cookies</h5></li>
+        <li><h5>1/4 cup cocoa powder, for dusting</h5></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-60" id="instructions">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">How to make Tiramisu:</h1><br>
+      <ol>
+        <li><h5>In a large mixing bowl, whisk together egg yolks and sugar until thick and pale.</h5></li>
+        <li><h5>Add mascarpone cheese to the egg mixture and mix until smooth.</h5></li>
+        <li><h5>In a separate bowl, whip heavy cream until stiff peaks form.</h5></li>
+        <li><h5>Gently fold whipped cream into the mascarpone mixture until well combined.</h5></li>
+        <li><h5>In a shallow dish, combine brewed coffee and coffee liqueur (if using).</h5></li>
+        <li><h5>Dip each ladyfinger into the coffee mixture briefly, then arrange a layer of dipped ladyfingers in the bottom of a serving dish.</h5></li>
+        <li><h5>Spread half of the mascarpone mixture over the ladyfingers.</h5></li>
+        <li><h5>Repeat with another layer of dipped ladyfingers and remaining mascarpone mixture.</h5></li>
+        <li><h5>Cover and refrigerate for at least 4 hours or overnight.</h5></li>
+        <li><h5>Before serving, dust the top of the tiramisu with cocoa powder.</h5></li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64" id="community">
+    <div class="w3-col l12 w3-padding-large">
+      <h1 class="w3-center">P2P Community</h1><br>
+      <p class="w3-text-grey w3-large">Tell Us What You Think...</p>
+
+      <!-- Comment Section -->
+      <div id="comments">
+        <h2>Rate This Recipe!</h2>
+        <div id="commentForm">
+          <textarea id="commentText" rows="4" cols="50" placeholder="Food For Thought..."></textarea><br>
+          <button onclick="addComment()">Add Comment</button>
+        </div>
+        <div id="allComments"></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
